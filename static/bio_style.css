@@ -1,0 +1,36 @@
+#my_Bio {
+	color: white;
+	font-size: 1.4em; 
+	word-wrap: break-word;
+	text-align: center;
+	font-style: bold;
+	background-color: rgba(0, 0, 0, 0.54);
+	width: 30%;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	position: relative;
+	margin: auto;
+	padding: 40px;
+	bottom: 60px;
+}
+
+#res_container{
+	bottom: 175px;
+	padding-top: 30px;
+	text-align: center;
+	margin: auto;
+
+}
+#res_link_wrapper{
+	display:block;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	position: relative;
+	width: 50%;
+	border-style: solid;
+	margin: auto;
+	
+}
+
+#res_link_wrapper:hover{
+	color: #ffe2a9;
+}
+

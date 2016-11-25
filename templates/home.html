@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+{% block head %}
+	<link rel='stylesheet' href="{{ url_for('static', filename='home_style.css')}}">
+{% endblock %}
+
+{% block content%}
+	<div id='profile'>
+		<div id='propic'>
+			<img class= "img-circle" src="{{ url_for('static', filename='images/propic.jpg') }}" alt="" height="200" />
+		</div>
+		<!--<div id="short_bio"> Welcome! </div>-->
+	</div>
+{% endblock %}

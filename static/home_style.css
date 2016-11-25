@@ -1,0 +1,32 @@
+#profile{
+	position: relative;
+	margin: auto;
+	display: table;
+	max-width: 50%;
+}
+#propic img{
+	vertical-align: middle;
+	position: relative;
+
+	 -webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+}
+#propic{
+	padding-bottom: 150px;
+}
+
+#short_bio{
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	padding: 25px;
+	font-size: 3em; 
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+#propic img:hover {
+   -webkit-filter: grayscale(0);
+  	filter: grayscale(0);
+}
+
+

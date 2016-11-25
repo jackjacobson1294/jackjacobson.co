@@ -1,0 +1,10 @@
+#art_Banner {
+	color: rgb(120, 156, 253);
+	font-size: 4.0em; 
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	position: relative;
+    left: 0;
+    right: 0;
+
+}

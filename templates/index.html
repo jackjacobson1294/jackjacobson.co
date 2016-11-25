@@ -1,0 +1,34 @@
+<!--doctype html-->
+<html>
+	<head>
+		
+		<title>Jack Jacobson</title>
+		<link rel='stylesheet' href="{{ url_for('static', filename='style.css') }}">
+		{% block head %}{% endblock %}
+		<title>{% block title%}{% endblock%} My Webpage</title>
+		
+	</head>
+	<body>
+		<div id="content">
+			<div id ='home-logo'>
+				<div class ="name">Jack</div>
+				<div class ="name">Jacobson</div>
+			</div>
+			<ul id= 'main_nav'>
+				<li><a href="{{url_for('home')}}">Home</a></li>
+				<li><a href="{{url_for('render_Bio')+ '#my_Bio'}}">Bio</a></li>
+				<li><a href="{{url_for('render_Art')}}">Art</a></li>
+				<li><a href="{{url_for('render_Music')}}">Music</a></li>
+			</ul>
+			<!-- -->
+			<!--<div id='foot_banner'><img src="{{ url_for('static', filename='images/Iceberg.jpg') }}" alt="" /></div> -->
+
+	
+			{% block content%}{% endblock %}
+			<!--<div id='foot_banner'><img src="{{ url_for('static', filename='images/dec.png') }}" alt="" /></div>
+			 <div id='bottom_fill'></div>-->
+			
+		</div>
+		<div id ="footer">{% block footer %}{% endblock %}</div>
+	</body>
+</html>
